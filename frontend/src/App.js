@@ -8,7 +8,7 @@ function App() {
   const [filter, setFilter] = useState("all");
   const [editId, setEditId] = useState(null);
 
-  const API = "http://localhost:5000/tasks";
+  const API = "https://task-manager1-1-rw45.onrender.com";
 
   // Load tasks
   const getTasks = async () => {
